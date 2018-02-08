@@ -1,0 +1,29 @@
+---
+author: geeksinhk
+comments: true
+date: 2008-10-17 03:58:29+00:00
+layout: post
+link: https://geeksinhk.wordpress.com/2008/10/17/secure-bt/
+slug: secure-bt
+title: Secure BT
+wordpress_id: 14
+categories:
+- Ideas
+- Security
+---
+
+A secure BT is needed. we needed ssh to replace telnet.
+We also needed BTS to replace BT :)
+
+Goal:
+1. Stop packet injection from "legal" party
+Checksum is included by sender, if anyone sending packets which is difference from others ban this user
+Maintain a ban user list which is constantly updated by bt software
+Receive same material two times
+2. Stop "legal" party to trace out user
+Onion routing
+Send packet randomly such that having no evidence for him to upload
+this two method is perfect match
+3. Stop banned by ISP
+Changing port.
+Changing rate behavior
