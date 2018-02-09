@@ -21,7 +21,7 @@ sass:
   sass_dir: _sass
 
 # The base hostname & protocol of your site for where absolute urls are needed
-url: "http://wishlog.github.com"
+url: "https://scottietse.com"
 
 # Site navigation - each item must have a title and a url.
 navigation:
@@ -40,17 +40,17 @@ disqus: wishlog
 # Author information - author info at the bottom of the post
 author_name: "Scott Tse"
 author_bio: ""
-author_url:  "http://wishlog.github.com"
+author_url:  "https://scottietse.com"
 author_location: "Hong Kong, China"
 author_image: images/banner.jpg
 
 # Sidebar Add banner
-banner_url: "http://wishlog.github.com"
+banner_url: "https://scottietse.com"
 banner_image: images/banner.jpg
 
 # Sidebar newsletter widget - add your form action url for MailChimp signup form here
 # mailchimp_url: "//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"
-//mailchimp_url: "none"
+mailchimp_url: "none"
 
 # Social links in the site footer
 twitter_username: "wishlog"
