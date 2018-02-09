@@ -8,7 +8,7 @@ slug: building-web-applications
 title: Google API and XHR request
 wordpress_id: 56
 tags:
-- cheatsheets
+- cheatsheet
 - script
 - programming
 ---
@@ -18,7 +18,7 @@ http://code.google.com/apis/ajax/playground/
 
 XHR request:
 
-[sourcecode language="js"]
+{% highlight bash %}
 function loadXMLDoc(url)
 {
         if (window.XMLHttpRequest)
@@ -36,4 +36,4 @@ function loadXMLDoc(url)
         return(JSON.parse(jsonhttp.responseText));
 }
 var result = loadXMLDoc('the_request.php');
-[/sourcecode]
+{% highlight bash %}
