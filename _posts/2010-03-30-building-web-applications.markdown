@@ -7,8 +7,10 @@ link: https://geeksinhk.wordpress.com/2010/03/30/building-web-applications/
 slug: building-web-applications
 title: Google API and XHR request
 wordpress_id: 56
-categories:
-- Cheatsheets
+tags:
+- cheatsheets
+- script
+- programming
 ---
 
 Google api:

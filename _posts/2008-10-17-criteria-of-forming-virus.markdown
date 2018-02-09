@@ -8,7 +8,8 @@ slug: criteria-of-forming-virus
 title: Criteria of constructing virus
 wordpress_id: 12
 categories:
-- Ideas
+- security
+- idea
 ---
 
 A computer virus is called a virus, but not bacteria since they gained some "features" of a virus, and a successful of virus is regarded as an disaster of human beings. I summarized some points that should be included for a computer virus.

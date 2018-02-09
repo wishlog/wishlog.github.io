@@ -11,8 +11,9 @@ youtubeId: SJ4B0-A-_Lk
 banner_image: pg_island.jpg
 
 tags:
-- dive
-- Philipine
+- fun
+- diving
+- philipine
 ---
 
 毒男s Diving log in Philipine

@@ -8,6 +8,8 @@ slug: scared-the-shit-out-of-me
 title: Scared the shit out of me
 wordpress_id: 133
 youtubeId: dv4BBBObptc
+tags: 
+- fun
 ---
 
 This morning a vendor introduce their CEH certified colleague to me, and said: "He got CEH, you should be scare of him".

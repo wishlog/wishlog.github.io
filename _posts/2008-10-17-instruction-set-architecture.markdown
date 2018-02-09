@@ -7,11 +7,8 @@ link: https://geeksinhk.wordpress.com/2008/10/17/instruction-set-architecture/
 slug: instruction-set-architecture
 title: Instruction Set Architecture
 wordpress_id: 18
-categories:
-- Cheatsheets
 tags:
-- Instruction Sets
-- Technical
+- cheatsheet
 ---
 
 So base on different machine/computer architecture, there are following Instruction Set we need to learn. Thanks to John  von Neumann, I guess the types of machines is actually reduced by him.

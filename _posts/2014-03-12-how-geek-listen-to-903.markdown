@@ -18,7 +18,7 @@ It should be expected that when geek need to listen to the only local radio that
 Here we go:
 
 
-<blockquote>alias 903='ffplay rtsp://maclive.881903.com/cr2 -nodisp'</blockquote>
+{% highlight bash %}alias 903='ffplay rtsp://maclive.881903.com/cr2 -nodisp'{% endhighlight %}
 
 
 "The finding was attached as below:"

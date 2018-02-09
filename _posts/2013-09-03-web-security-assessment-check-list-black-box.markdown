@@ -7,16 +7,12 @@ link: https://geeksinhk.wordpress.com/2013/09/03/web-security-assessment-check-l
 slug: web-security-assessment-check-list-black-box
 title: 'Web security assessment check list. (Black box) '
 wordpress_id: 89
-categories:
-- Security
-- Web
+tags:
+- security
+- web
 ---
 
 There are several things we gonna check on building a secure web page. Assumed that the assessment is done on black box. Here we included some steps and procedures for a simple analysis on a web page. The following is from 2010, it take no reference from SANS and OWASP's checklist, but it contains what comes up my mind at the moment I post.
-
-
-
-
 
 
 	
@@ -51,6 +47,4 @@ There are several things we gonna check on building a secure web page. Assumed t
 
 	
   11. Check for performance. Yslow?
-
-
 

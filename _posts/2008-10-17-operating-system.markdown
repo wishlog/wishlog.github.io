@@ -7,11 +7,8 @@ link: https://geeksinhk.wordpress.com/2008/10/17/operating-system/
 slug: operating-system
 title: Operating System
 wordpress_id: 16
-categories:
-- Cheatsheets
 tags:
-- Operating Systems
-- Technical
+- cheatsheet
 ---
 
 Here is a reminder of current popular/representative Operating System run in our daily life, I hope I can spend some time to install them in Virtual environment, the classification is not regulate, just for a personal note only.

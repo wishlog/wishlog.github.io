@@ -7,10 +7,8 @@ link: https://geeksinhk.wordpress.com/2013/09/03/blogpost-sync-between-wordpress
 slug: blogpost-sync-between-wordpress-and-blogspot
 title: Blogpost sync between wordpress and blogspot
 wordpress_id: 91
-categories:
-- Fun for Geeks
 tags:
-- geek
+- note
 ---
 
 With this [IFTTT](https://ifttt.com/recipes/114950) plugin, this blog post will now be sync to this one. http://happypentest.blogspot.hk/

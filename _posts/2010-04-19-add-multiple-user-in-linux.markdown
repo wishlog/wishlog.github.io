@@ -7,8 +7,8 @@ link: https://geeksinhk.wordpress.com/2010/04/19/add-multiple-user-in-linux/
 slug: add-multiple-user-in-linux
 title: Add multiple user in linux
 wordpress_id: 63
-categories:
-- Cheatsheets
+tags:
+- script
 ---
 
 http://www.cyberciti.biz/tips/linux-how-to-create-multiple-users-accounts-in-batch.html

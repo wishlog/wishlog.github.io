@@ -7,8 +7,9 @@ link: https://geeksinhk.wordpress.com/2008/10/17/the-time-machine/
 slug: the-time-machine
 title: The Time Machine
 wordpress_id: 7
-categories:
-- Ideas
+tags: 
+- idea
+- fun
 ---
 
 [youtube=http://www.youtube.com/watch?v=oRWwI61so5Q&hl;=en&fs;=1]

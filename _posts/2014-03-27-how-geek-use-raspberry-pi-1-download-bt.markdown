@@ -7,8 +7,9 @@ link: https://geeksinhk.wordpress.com/2014/03/27/how-geek-use-raspberry-pi-1-dow
 slug: how-geek-use-raspberry-pi-1-download-bt
 title: How geek use raspberry pi (1) - Download BT
 wordpress_id: 112
-categories:
-- Fun for Geeks
+tags:
+- fun
+- script
 ---
 
 As that's quite time consuming to go to the torrent site and search bt files from it, the geeks wrote a 'oneliner' (actually 2 lines) to perform the search:

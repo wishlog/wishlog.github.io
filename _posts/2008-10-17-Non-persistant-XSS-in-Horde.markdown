@@ -7,12 +7,11 @@ link: https://geeksinhk.wordpress.com/2008/10/17/21/
 slug: '21'
 title: Non-persistant XSS in Horde
 wordpress_id: 21
-categories:
-- Security
-- Web
 tags:
 - horde
-- Security Web
+- security
+- attack
+- web
 ---
 
 These days we tried to find some vulnerability in webmail.ie.cuhk.edu.hk. And we found that it consist of xss vulnerability for us to spoof the same webmail address with injection in URL. It is already an old issue mentioned back to year 2006 in version 2 of Horde, however we come back to the xss injection again in version 4.1.3.

@@ -7,6 +7,8 @@ link: https://geeksinhk.wordpress.com/2013/11/15/git-reference/
 slug: git-reference
 title: Git Reference
 wordpress_id: 102
+tags: 
+- script
 ---
 
 **Setup self-hosted git remote repository**

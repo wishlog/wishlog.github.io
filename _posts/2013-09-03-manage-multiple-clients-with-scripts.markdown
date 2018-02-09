@@ -7,10 +7,8 @@ link: https://geeksinhk.wordpress.com/2013/09/03/manage-multiple-clients-with-sc
 slug: manage-multiple-clients-with-scripts
 title: Manage multiple clients with scripts
 wordpress_id: 79
-categories:
-- Penetration Test
-- Security
 tags:
+- security
 - pentest
 ---
 

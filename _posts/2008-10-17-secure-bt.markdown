@@ -7,9 +7,10 @@ link: https://geeksinhk.wordpress.com/2008/10/17/secure-bt/
 slug: secure-bt
 title: Secure BT
 wordpress_id: 14
-categories:
-- Ideas
-- Security
+tags:
+- fun
+- idea
+- security
 ---
 
 A secure BT is needed. we needed ssh to replace telnet.

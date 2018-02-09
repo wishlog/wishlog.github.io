@@ -7,8 +7,8 @@ link: https://geeksinhk.wordpress.com/2008/10/17/most-needed-websites/
 slug: most-needed-websites
 title: Most needed websites
 wordpress_id: 9
-categories:
-- Ideas
+tags: 
+- idea
 ---
 
 A common LOGIN system that provided unique login ID and password, such that using this unique ID and password can get you login to every website. It exist such system but seems not very success.
