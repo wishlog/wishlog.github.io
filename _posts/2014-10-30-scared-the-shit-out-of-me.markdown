@@ -14,6 +14,6 @@ This morning a vendor introduce their CEH certified colleague to me, and said: "
 
 He scared the shit out of me.
 
-{% include youtubePlayer.html id=page.youtubeId %}
+{% include youtubeplayer.html id=page.youtubeId %}
 
 [完]
