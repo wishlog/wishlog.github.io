@@ -64,6 +64,6 @@ tags:
 Thanks for the Video "V2" by Felix Ko
 
 
-{% include youtubePlayer.html id=page.youtubeId %}
+{% include youtubeplayer.html id=page.youtubeId %}
 
 
