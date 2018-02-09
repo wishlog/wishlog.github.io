@@ -36,4 +36,4 @@ function loadXMLDoc(url)
         return(JSON.parse(jsonhttp.responseText));
 }
 var result = loadXMLDoc('the_request.php');
-{% highlight bash %}
+{% endhighlight %}
