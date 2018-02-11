@@ -22,6 +22,7 @@ Here we go:
 
 
 "The finding was attached as below:"
+<!--more-->
 
 
 [![Screen Shot 2014-03-12 at 10.38.19 PM](http://geeksinhk.files.wordpress.com/2014/03/screen-shot-2014-03-12-at-10-38-19-pm.png?w=300)](http://geeksinhk.files.wordpress.com/2014/03/screen-shot-2014-03-12-at-10-38-19-pm.png)
