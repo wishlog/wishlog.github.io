@@ -17,4 +17,6 @@ If the time machine exist, which can bring me back to 3 minutes ago and talking 
 I will try to persuade myself not to use the time machine.
 So I don't use the time machine and no one stop me to use the time machine.
 
+<!--more-->
+
 {% include youtubeplayer.html id=page.youtubeId %}
