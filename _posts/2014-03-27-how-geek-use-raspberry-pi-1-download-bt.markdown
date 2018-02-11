@@ -10,6 +10,7 @@ wordpress_id: 112
 tags:
 - fun
 - script
+- raspberry pi
 ---
 
 As that's quite time consuming to go to the torrent site and search bt files from it, the geeks wrote a 'oneliner' (actually 2 lines) to perform the search:

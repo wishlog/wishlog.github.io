@@ -7,7 +7,7 @@
 timezone: Asia/Hong_Kong
 
 # Site title
-title: "Geeks in HK"
+title: "Geek @ Hong Kong"
 
 # A description of your site for social meta tag, search engines, and feed.xml
 description: "Since 2008 from Hong Kong - migrated from geeksinhk.wordpress.com"
@@ -32,7 +32,7 @@ navigation:
   url: /about/
 - text: Style Guides
   url: /style-guide/
-- text: Archives
+- text: tags
   url: /tags/
 
 # The shortname for your Disqus site to enable comments.
@@ -40,7 +40,7 @@ disqus: wishlog
 
 # Author information - author info at the bottom of the post
 author_name: "Scott Tse"
-author_bio: ""
+author_bio: "Discover and Exploit."
 author_url:  "https://scottietse.com"
 author_location: "Hong Kong, China"
 author_image: images/banner.jpg
