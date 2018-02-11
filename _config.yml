@@ -50,8 +50,7 @@ banner_url: "https://scottietse.com"
 banner_image: images/banner.jpg
 
 # Sidebar newsletter widget - add your form action url for MailChimp signup form here
-# mailchimp_url: "//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"
-mailchimp_url: "none"
+mailchimp_url: "//scottietse.us17.list-manage.com/subscribe?u=4a0af4a49decf136d00dd7956&id=502de84cdf"
 
 # Social links in the site footer
 twitter_username: "wishlog"
