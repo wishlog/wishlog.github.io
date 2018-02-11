@@ -22,7 +22,7 @@ sass:
   sass_dir: _sass
 
 # The base hostname & protocol of your site for where absolute urls are needed
-url: "https://scottietse.com"
+url: "http://www.scottietse.com"
 
 # Site navigation - each item must have a title and a url.
 navigation:
@@ -41,12 +41,12 @@ disqus: wishlog
 # Author information - author info at the bottom of the post
 author_name: "Scott Tse"
 author_bio: "Discover and Exploit."
-author_url:  "https://scottietse.com"
+author_url:  "http://www.scottietse.com"
 author_location: "Hong Kong, China"
 author_image: images/banner.jpg
 
 # Sidebar Add banner
-banner_url: "https://scottietse.com"
+banner_url: "http://www.scottietse.com"
 banner_image: images/banner.jpg
 
 # Sidebar newsletter widget - add your form action url for MailChimp signup form here
