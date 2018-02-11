@@ -31,7 +31,7 @@ transmission-remote -n "transmission:okay, you win" -a "$@"{% endhighlight %}
 
 That's how it looks like for a search:
 
-
+<!--more-->
 {% highlight bash %}root@raspberrypi:~# search harvard business school
 25. magnet:?xt=urn:btih:19ce84592aec23ca73f017f7643fb21b9b22dce2&dn=Harvard Business Review - 10 Must Reads on Strategy x5BPDFx5D x5BQwert&tr=udpx3Ax2Fx2Ftracker.openbittorrent.comx3A80&tr=udpx3Ax2Fx2Ftracker.publicbt.comx3A80&tr=udpx3Ax2Fx2Ftracker.istole.itx3A6969&tr=udpx3Ax2Fx2Ftracker.ccc.dex3A80&tr=udpx3Ax2Fx2Fopen.demonii.comx3A1337
 30. magnet:?xt=urn:btih:8b7a78d69ba037175d3ac4c2fe91fa8269eb183e&dn=Harvard Business Review - April 2014 USA&tr=udpx3Ax2Fx2Ftracker.openbittorrent.comx3A80&tr=udpx3Ax2Fx2Ftracker.publicbt.comx3A80&tr=udpx3Ax2Fx2Ftracker.istole.itx3A6969&tr=udpx3Ax2Fx2Ftracker.ccc.dex3A80&tr=udpx3Ax2Fx2Fopen.demonii.comx3A1337

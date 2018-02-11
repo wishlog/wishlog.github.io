@@ -32,6 +32,7 @@ tags:
   * 15:30 La Laguna
   * 18:00 Sabang Beach (Night dive)
 
+<!--more-->
 10th Sept 2015
   * 9:00 Dugon Wall
   * 11:30 The Hill

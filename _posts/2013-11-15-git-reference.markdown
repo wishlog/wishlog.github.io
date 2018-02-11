@@ -11,11 +11,16 @@ tags:
 - script
 ---
 
-**Setup self-hosted git remote repository**
+Setup self-hosted git remote repository
 [http://kovshenin.com/2011/howto-remote-shared-git-repository/](//kovshenin.com/2011/howto-remote-shared-git-repository/)
 
-**Git deployment workflow between local, remote repository and web server**[
-http://ryanflorence.com/simple-git-deployment/](http://ryanflorence.com/simple-git-deployment/)
+Git deployment workflow between local, remote repository and web server
+[http://ryanflorence.com/simple-git-deployment/](http://ryanflorence.com/simple-git-deployment/)
 
-**Git deployment workflow between development and live/production on the same server**
+Git deployment workflow between development and live/production on the same server
 [https://coderwall.com/p/xczkaq](https://coderwall.com/p/xczkaq)
+
+Sync project to repo brainlessly...
+alias sync="git add . && git commit -m "changed" && git push"
+
+<!--more-->

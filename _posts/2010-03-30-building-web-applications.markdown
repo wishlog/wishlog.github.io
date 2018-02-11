@@ -37,3 +37,5 @@ function loadXMLDoc(url)
 }
 var result = loadXMLDoc('the_request.php');
 {% endhighlight %}
+
+<!--more-->

@@ -23,6 +23,7 @@ There are several things we gonna check on building a secure web page. Assumed t
 
 	
   3. Check the purpose of the web server. Is it a dynamic website with user involvement? Is there a database behind? What version will the database properly be, according to the httpd server? MySQL/Oracle/DB2/... Say if it is running apache most likely it work with LAMP. And if windows is the host, it may have IIS, ASP, Access, IIS database manager... or still WAMP. Will this server further connect to other internal computer for retrieving contents? What are the host properly behind? (You may know it from jobsdb or make a phone call to their datacenter :)
+<!--more-->
 
 	
   4. Check vulnerable third party (close /open source) code. Do they use 3rd party code in their web server? How are they vulnerable? Do they store those code on their own server or ask your client browser to connect to them? If the client's DNS is poisoned and retrieve third party codes from badguys, will Charlie say thats really hurt? Is there any dynamic links to other page contents which can be polluted? e.g. Email server may execute contents from sender, Sammy worm move around on MySpace.

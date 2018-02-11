@@ -23,5 +23,6 @@ toilet -f mono12 -F metal Office
 
 You can obtain the "toilet" program by "sudo port install toilet" in Mac.
 Here is the result when I am in Office with IP 123.123.123.123
+<!--more-->
 
 [![](http://geeksinhk.files.wordpress.com/2013/09/7cf11-screenshot2011-12-13at4-55-39pm.png?w=300)](http://4.bp.blogspot.com/-XsEL7Kcod6Y/TucU5yAOVOI/AAAAAAAAPjQ/DGeg9XPF4t8/s1600/Screen+Shot+2011-12-13+at+4.55.39+PM.png)
