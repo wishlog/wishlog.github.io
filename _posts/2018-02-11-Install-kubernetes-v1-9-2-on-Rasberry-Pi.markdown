@@ -75,6 +75,39 @@ Notice that the script is "apply" instead of "create".
 Finally, you should be able to get below:
 {% include image_caption.html imageurl="/images/posts/k8s-1.jpg" title="Apple Super" caption="After connecting 1 slave node (node02) to master" %}
 
+Last and the least step - Upgrade to the latest version (v1.9.3)
+========================
+Run the below two command can conduct the upgrade:
+kubeadm upgrade plan
+kubeadm upgrade apply vxxx
+
+However, we have to upgrade kubeadm before proceed:
+{% highlight bash %}
+export VERSION=$(curl -sSL https://dl.k8s.io/release/stable.txt) # or manually specify a released Kubernetes version
+export ARCH=arm # or: arm, arm64, ppc64le, s390x
+curl -sSL https://dl.k8s.io/release/${VERSION}/bin/linux/${ARCH}/kubeadm > /usr/bin/kubeadm
+$ chmod a+rx /usr/bin/kubeadm
+{% endhighlight %}
+
+Store the kubeadm init's flags:
+{% highlight bash %}
+kubeadm config upload from-flags --pod-network-cidr 10.244.0.0/16
+{% endhighlight %}
+
+Apply the upgrade
+{% highlight bash %}
+kubeadm upgrade plan
+kubeadm upgrade apply 
+{% endhighlight %}
+
+It failed and get the below error:
+{% highlight bash %}
+[upgrade/apply] FATAL: couldn't upgrade control plane. kubeadm has tried to recover everything into the earlier state. Errors faced: [timed out waiting for the condition]
+{% endhighlight %}
+
+Go back to v1.9.2.... 
+kubeadm upgrade apply 1.9.2
+
 Some useful commands
 ========================
 In case it fucked up, you can reset everything with below:
