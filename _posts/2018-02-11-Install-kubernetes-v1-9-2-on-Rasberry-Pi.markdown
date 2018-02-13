@@ -77,11 +77,7 @@ Finally, you should be able to get below:
 
 Last and the least step - Upgrade to the latest version (v1.9.3)
 ========================
-Run the below two command can conduct the upgrade:
-kubeadm upgrade plan
-kubeadm upgrade apply vxxx
-
-However, we have to upgrade kubeadm before proceed:
+Before we proceed, we upgrade kubeadm client first:
 {% highlight bash %}
 export VERSION=$(curl -sSL https://dl.k8s.io/release/stable.txt) # or manually specify a released Kubernetes version
 export ARCH=arm # or: arm, arm64, ppc64le, s390x
@@ -105,8 +101,10 @@ It failed and get the below error:
 [upgrade/apply] FATAL: couldn't upgrade control plane. kubeadm has tried to recover everything into the earlier state. Errors faced: [timed out waiting for the condition]
 {% endhighlight %}
 
-Go back to v1.9.2.... 
+Alright, we fall back to v1.9.2.... :)
+{% highlight bash %}
 kubeadm upgrade apply 1.9.2
+{% endhighlight %}
 
 Some useful commands
 ========================
