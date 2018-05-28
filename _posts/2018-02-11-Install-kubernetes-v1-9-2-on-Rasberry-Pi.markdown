@@ -106,6 +106,46 @@ Alright, we fall back to v1.9.2.... :)
 kubeadm upgrade apply 1.9.2
 {% endhighlight %}
 
+Deploy the Web UI
+========================
+{% highlight bash %}
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard-arm.yaml
+{% endhighlight %}
+The default image is in amd64 format, which doesn't work. Following error message will be thrown:
+standard_init_linux.go:190: exec user process caused "exec format error"
+
+Option 1: 
+Login with Token: Print the replicaset controller token with:
+{% highlight bash %}
+kubectl -n kube-system describe secret `kubectl -n kube-system get secret | grep replicaset-controller-token | awk '{print $1}'` | grep token: | awk '{print $2}'
+{% endhighlight %}
+
+
+Option 2: 
+Totally skip it:
+{% highlight bash %}
+apiVersion: rbac.authorization.k8s.io/v1beta1
+kind: ClusterRoleBinding
+metadata:
+  name: kubernetes-dashboard
+  labels:
+    k8s-app: kubernetes-dashboard
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: cluster-admin
+subjects:
+- kind: ServiceAccount
+  name: kubernetes-dashboard
+  namespace: kube-system
+{% endhighlight %}
+
+Deploy it with:
+{% highlight bash %}
+kubectl create -f dashboard-admin.yaml
+{% endhighlight %}
+
+
 Some useful commands
 ========================
 In case it fucked up, you can reset everything with below:
