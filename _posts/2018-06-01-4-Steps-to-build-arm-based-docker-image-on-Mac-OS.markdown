@@ -15,7 +15,6 @@ To build an arm image, we need the qemu emulator to emulate those arm executions
 ### To not mess with Mac, we do it in an *Ubuntu Docker*:
 //On Ubuntu Docker
 {% highlight bash %}
-docker exec -it ubuntuContainer bash //within the ubuntu docker:
 sudo apt install -y qemu qemu-user-static qemu-user binfmt-support
 {% endhighlight %}
 
