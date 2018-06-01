@@ -2,7 +2,7 @@
 layout: post
 title: "Install helm on raspberry pi (ARM device)"
 date:  2018-06-01 15:57:47
-banner_image: k8s-1.jpg
+banner_image: k8s-2.jpg
 
 tags:
 #- fun
