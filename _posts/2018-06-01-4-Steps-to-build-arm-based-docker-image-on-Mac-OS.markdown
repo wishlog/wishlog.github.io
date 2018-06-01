@@ -12,28 +12,28 @@ tags:
 
 To build an arm image, we need the qemu emulator to emulate those arm executions in the image. First, extract the static linked qemu emulator from linux. 
 
-1. To not mess with Mac, we do it in an *Ubuntu Docker*:
+### To not mess with Mac, we do it in an *Ubuntu Docker*:
 //On Ubuntu Docker
 {% highlight bash %}
 docker exec -it ubuntuContainer bash //within the ubuntu docker:
 sudo apt install -y qemu qemu-user-static qemu-user binfmt-support
 {% endhighlight %}
 
-2. SCP the qemu-arm-static out from docker *Ubuntu Docker* machine to host *Mac*
+### SCP the qemu-arm-static out from docker *Ubuntu Docker* machine to host *Mac*
 //On Ubuntu Docker
 {% highlight bash %}
 scp qemu-arm-static scottie@10.0.0.257:~
 {% endhighlight %}
 
 <!--more-->
-3. Register QEMU as the build agent in *Mac*:
-//On Mac
+### Register QEMU as the build agent in *Mac*:
 Don't understand, but it works...
+//On Mac
 {% highlight bash %}
 docker run --rm --privileged multiarch/qemu-user-static:register --reset
 {% endhighlight %}
 
-4. Create the Dockerfile with ubuntu-arm from *Mac*:
+### Create the Dockerfile with ubuntu-arm from *Mac*:
 //On Mac
 {% highlight bash %}
 FROM armv7/armhf-ubuntu:16.04
@@ -41,4 +41,6 @@ COPY qemu-arm /usr/bin/qemu-arm-static
 RUN echo Hello from ARM container
 {% endhighlight %}
 
-ref: https://blog.hypriot.com/post/setup-simple-ci-pipeline-for-arm-images/
+ref:
+ - https://blog.hypriot.com/post/setup-simple-ci-pipeline-for-arm-images/
+ - https://resin.io/blog/building-arm-containers-on-any-x86-machine-even-dockerhub/
