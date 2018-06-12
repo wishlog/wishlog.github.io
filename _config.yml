@@ -32,8 +32,8 @@ navigation:
   url: /about/
 - text: Style Guides
   url: /style-guide/
-- text: Style Guides2
-  url: /style-guide2/
+- text: Pentest Notes
+  url: /pentest-notes/
 - text: tags
   url: /tags/
 
