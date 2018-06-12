@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cheat sheets
+title: Cheat sheets - to be updated, a bit messy
 description: Loads of Cheats
 ---
 
