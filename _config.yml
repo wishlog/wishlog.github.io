@@ -34,6 +34,8 @@ navigation:
   url: /style-guide/
 - text: Pentest Notes
   url: /pentest-notes/
+- text: Cheat Sheets
+  url: /cheat-sheets/
 - text: tags
   url: /tags/
 
